@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Productos</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="Shortcut Icon" type="image/x-icon" href="assets/icons/shortcut-icon.ico" />
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="page-container">
+		<nav class="full-reset nav-phonestore">
+           <div class="logo tittles-pages">
+                BetilloStore 
+           </div>
+            <ul class="list-unstyled full-reset navigation-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="product.html">Productos</a></li>
+                <li><a href="news.html">Noticias</a></li>
+                <li><a href="services.html">P de Servicios</a></li>
+                <li><a href="contact.html">Contactenos</a></li>
+            </ul>
+            <i class="fa fa-bars visible-xs btn-mobile"></i>
+    	</nav>
+	    <div class="content-page">
+		    <div class="hidden-xs content-carousel">
+		    	<div id="carousel-phonestore" class="carousel slide" data-ride="carousel" style="margin-top:0;">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-phonestore" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-phonestore" data-slide-to="1"></li>
+				    <li data-target="#carousel-phonestore" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="assets/img/slide 1.jpg" alt="">
+				      <div class="carousel-caption">
+				        <h2>Windows Phone</h2>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/slide 2.jpg" alt="">
+				      <div class="carousel-caption">
+				        <h2>iPhone 11</h2>
+				      </div>
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/slide 3.jpg" alt="">
+				      <div class="carousel-caption">
+				        <h2>Sony Xperia 10 </h2>
+				      </div>
+				    </div>
+				  </div>
+				  <a class="left carousel-control" href="#carousel-phonestore" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-phonestore" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				  </a>
+				</div>
+		    </div>
+		    <div class="visible-xs static-image-carousel">
+		    	<img src="assets/img/image-carousel.jpg"  alt="" class="img-responsive">
+		    </div>
+		    <section id="prod-container section">
+		    	<div class="container-fluid">
+		    		<div class="row">
+		    			<div class="col-xs-12 text-center">
+		    				<p class="tittles-pages">Tablets y Teléfonos</p>
+		    			</div>
+		    			<div class="col-xs-12">
+		    				<div class="container">
+			    				<ul class="nav nav-tabs" role="tablist" id="TabProducts">
+								  <li class="active"><a href="#all-categories" role="tab" data-toggle="tab"><i class="fa fa-th"></i>&nbsp; Todo</a></li>
+								  <li><a href="#smartphones" role="tab" data-toggle="tab"><i class="fa fa-mobile"></i>&nbsp; SmartPhones</a></li>
+								  <li><a href="#tablets" role="tab" data-toggle="tab"><i class="fa fa-tablet"></i>&nbsp; Tablets</a></li>
+								  <li>
+							        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-hdd-o"></i>&nbsp; Buscar phone <span class="caret"></span></a>
+							        <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+							          <li><a href="#android" tabindex="-1" role="tab" data-toggle="tab"><i class="fa fa-android"></i>&nbsp; Android</a></li>
+							          <li><a href="#iOS" tabindex="-1" role="tab" data-toggle="tab"><i class="fa fa-apple"></i>&nbsp; iOS</a></li>
+							          <li><a href="#windowsPhone" tabindex="-1" role="tab" data-toggle="tab"><i class="fa fa-windows"></i>&nbsp; Windows Phone</a></li>
+							        </ul>
+							      </li>
+								</ul>
+								<div class="tab-content">
+								  <!-- ===================================== Todas las categorias ============================================= -->
+								  <div class="tab-pane active" id="all-categories">
+								  	<p class="tittles-pages">Todos los productos</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/product.png" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        	 <b>"Huawei Q7."</b>>
+										        	 Este asombroso smartphone con pantalla táctil de 6.15 pulgadas te ofrece un sistema 
+										        	 memoria de 128 GB expandible hasta 256 gb, memoria RAM de 4 GB y procesador Octa Core de 1.7 ghz.
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">Antes: $3,699 now $5,999</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/product2.jpg" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"Samsung A10"</b>
+										        Pantalla 6.4 'Cámara Principal:16 MPCámara Frontal: 10 MP WiFi WhatsApp Bluetooth Batería Memoria Interna 128 GB Memoria Expandible hasta 512 GB 8 GB RAM4,100 mAh
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 25999.00 en tienda -25%</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/product3.jpg" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"Sansumg A71"</b>> 
+                                                6.7 de pantalla 64+12+5+5 Mpx Trasera 32 Mpx Frontal memoria Rom 128 GB sensor de huella digital Bateria 4500 mAh
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 5200.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/product4.jpg" alt="prod-icon" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"Motorola G8 power"</b>>
+										        6.4 de pantalla  16+8+8+2 Mpx Trasera 16 Mpx Frontal Memoria Rom 64 GB bATERIA 5,000 mAh
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 5,400.00 </a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion productos -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== SmartPhones ============================================= -->
+								  <div class="tab-pane" id="smartphones">
+								  	<p class="tittles-pages">SmartPhones</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone.jpg" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        <b>"Motorola Moto E6 PLUS 32 GB"</b>>
+										        Camara doble principal 13 mp con profundidad de 2 mp  con flash para lograr un efecto bokeh posee memoria interna de 32 GB Expandible a 512 GB Dise;o en color arandano.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 2999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone1.jpg" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        <b>"Huawei p30 LITE 128 GB"</b>>
+										        Camara trasera de 24+8+2 MP con flash y una frontal de 32 MP su almacenamiento interno de 128 GB  expandible hasta 256 GB memoria ram de 4 GB.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 5999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone2.jpg" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        <b>"Xiaomi Redmi 8A 32 GB"</b>>
+										        Camara doble principal 13 mp con profundidad de 2 mp  con flash para lograr un efecto bokeh posee memoria interna de 32 GB Expandible a 512 GB Dise;o en color arandano.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 3289.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-smartphone4.jpg" alt="SmartPhone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">SmartPhone</h3>
+										        <p class="text-justify">
+										        <b>"Motorola ONE"</b>>
+										        De un exquisito diseño de 6.2 en color violeta HD+ vision camara principal de 13 mp  bateria de 4,000 mAh memria interna de 64 GB su RAM de 4 GB ANDRID 9. 
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 6,000.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+									<div class="row"><!-- Paginacion smartphone -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== Tablets ============================================= -->
+								  <div class="tab-pane" id="tablets">
+								  	<p class="tittles-pages">Tablets</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet.jpg" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"tablet huawei T3</b>>
+										        Excelente conectividad a internet  cuenta con 8 GB de memoria interna para que guardes todo tu contenido favorito ¡adquiere tu tablet here right now! 
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 2999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet1.jpg" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"Samsung Tab A SM-T510 NZDLMXO"</b>>
+										        Cuenta con un procesador exynos 7904 y memira RAM de 2GB para ejecutar tus apps con fluidez camara principal de 8 mp animate a pedir en linea la tablet.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 4600.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet2.jpg" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"Tablet Lenovo"</b>>
+										        Camara doble principal 13 mp con profundidad de 2 mp  con flash para lograr un efecto bokeh posee memoria interna de 32 GB Expandible a 512 GB Dise;o en color arandano.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 3800.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/tablet3.jpg" alt="Tablet" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Decripcion</h3>
+										        <p class="text-justify">
+										        <b>"Tablet Samsung Galaxy Tab 10.1</b>>
+										        Camara doble principal 12 mp con profundidad de 2 mp  con flash para lograr un efecto satisfactorio posee memoria interna de 32 GB Expandible a 512 GB Diseño en color negro blanco y dorado.
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 2700.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion tablets -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== Android ============================================= -->
+								  <div class="tab-pane" id="android">
+								  	<p class="tittles-pages">Android</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android.jpg" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"Motorola Moto G4 PLUS 32 GB</b>>
+										        Camara doble principal 14 mp con profundidad de 3 mp  con flash para lograr un efecto bokeh posee memoria interna de 28 GB Expandible a 128 GB DiseÑOo en color dorado blanco y negro.
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 2,600.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android1.jpg" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <B>"NOKIA 4.2"</B>>
+										        Excelente conectividad a internet  cuenta con 16 GB de memoria interna para que guardes todo tu contenido favorito ¡adquiere tu tablet here right now!
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 1,900.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android2.jpg" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Android</h3>
+										        <p class="text-justify">
+										         <b>"BLU X1"</b>>
+										        	 Este asombroso smartphone con pantalla táctil de 6.15 pulgadas te ofrece un sistema 
+										        	 memoria de 128 GB expandible hasta 256 gb, memoria RAM de 6 GB y procesador Octa Core de 1.7 ghZ color plata
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 2800.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-android3.jpg" alt="Android" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>""Samsug galaxi S6</b>>
+										        memoria de 128 GB expandible hasta 256 gb, memoria RAM de 8 GB y procesador Octa Core de 1.7 ghz adquierelo en linea hoy mismo
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$4,400.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion android -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== iOS ============================================= -->
+								  <div class="tab-pane" id="iOS">
+								  	<h2 class="tittles-pages">iOS</h2>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS.jpg" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"iphone S6"</b>>
+										        memoria interna de 32 GB camara principal de 12 mp  frontal de 5 mp desblquealo con solo poner el dedo sobre el sensor touch ID
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 7999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS1.jpg" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"iphone 11"</b>>
+										        memoria interna de 64 GB camara principal de 12+12 mp permite lograr un efecto angular  frontal de 5 mp desblquealo con solo poner el dedo sobre el sensor touch ID color bvlanco y negro
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$36,999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS2.jpg" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"iphone SE"</b>>
+										        memoria interna de 64 GB camara principal de 12 mp  frontal de 5 mp desblquealo con solo poner el dedo sobre el sensor touch ID
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">13999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-iOS3.jpg" alt="iOS" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"iphone 11 pro"</b>>
+										        memoria interna de 128 GB camara principal de 48 mp  frontal de 24 mp desblquealo con solo poner el dedo sobre el sensor touch ID
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 11999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion iOS -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								  <!-- ===================================== Windows Phone ============================================= -->
+								  <div class="tab-pane" id="windowsPhone">
+								  	<p class="tittles-pages">Windows Phone</p>
+								  	<div class="row">
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows.jpg" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"Nokia lumia 1520"</b>>
+										        memoria interna de 12 GB camara principal 8 mp  frontal de 5 mp 
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 4200.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows1.jpg" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"LG E900 5.0"</b>>
+										        memoria interna de 28 GB camara principal de 12 mp  LLEVATELO A 12 MESES DE $ 124.00 sin intereses envio gratis!!!!
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 4600.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows2.jpg" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"NOKIA LUMIA 1520"</b>>
+										        memoria interna de 16 GB camara principal de 12 mp  frontal de 5 mp desblquealo con solo poner el dedo sobre el sensor
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 3600.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  		<div class="col-xs-12 col-sm-6 col-md-3">
+								  			<div class="thumbnail thumbnail-content-phones">
+										      <img src="assets/img/phone-windows3.jpg" alt="Windows phone" class="img-responsive">
+										      <div class="caption">
+										        <h3 class=" text-center">Descripcion</h3>
+										        <p class="text-justify">
+										        <b>"SAMSUNG Ativ S"</b>>
+										        memoria interna de 16 GB camara principal de 12 mp  frontal de 5 mp desblquealo con solo poner el dedo sobre el sensor
+										        </p>
+										        <p class="text-center"><a href="#" class="btn btn-danger" role="button">$ 2999.00</a></p>
+										      </div>
+										    </div>
+								  		</div>
+								  	</div>
+								  	<div class="row"><!-- Paginacion Windows Phone -->
+										<div class="col-xs-12 text-center">
+									 		<ul class="pagination">
+											  <li><a href="#">&laquo;</a></li>
+											  <li class="active"><a href="#">1</a></li>
+											  <li><a href="#">2</a></li>
+											  <li><a href="#">3</a></li>
+											  <li><a href="#">4</a></li>
+											  <li><a href="#">5</a></li>
+											  <li><a href="#">6</a></li>
+											  <li><a href="#">7</a></li>
+											  <li><a href="#">&raquo;</a></li>
+											</ul>
+										</div>
+									</div>
+								  </div>
+								</div>
+		    				</div>
+		    			</div>	
+		    		</div>
+		    	</div>
+		    </section>
+	    </div>
+		<footer class="footer">
+    		<div class="container-fluid">
+    			<div class="col-xs-12 text-center">
+    				<h3>Siguenos en</h3>
+    				<ul class="list-unstyled list-social-icons">
+    					<li >
+    						<a href="#!">
+                               <i class="fa fa-facebook" style="background-color: #3B5998;"></i> 
+                            </a>
+    					</li>
+    					<li>
+    						<a href="#!">
+                                <i class="fa fa-google-plus" style="background-color: #DD4B39;"></i>
+                            </a>
+    					</li>
+    					<li>
+    						<a href="#!">
+                                <i class="fa fa-twitter"  style="background-color: #56A3D9;"></i>
+                            </a>
+    					</li>
+    					<li>
+    						<a href="#!">
+                                <i class="fa fa-youtube" style="background-color: #BF221F;"></i>
+                            </a>
+    					</li>
+    				</ul>
+    				<h4>BetilloStore &copy; 2020</h4>
+    			</div>
+    		</div>
+    	</footer>
+	</div>
+	<script>
+	  $(function () {
+	    $('#TabProducts a:first').tab('show')
+	  });
+	  $('#TabProducts a').click(function (e) {
+		  e.preventDefault()
+		  $(this).tab('show')
+		});
+	</script>
+</body>
+</html>
